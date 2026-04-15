@@ -1,0 +1,73 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="kubejs_mekanism_extends"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="${mod_authors}"
+description='''${mod_description}'''
+
+[[dependencies.kubejs_mekanism_extends]]
+    modId = "neoforge"
+    type = "required"
+    versionRange = "[${neo_version},)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.kubejs_mekanism_extends]]
+    modId = "minecraft"
+    type = "required"
+    versionRange = "${minecraft_version_range}"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.kubejs_mekanism_extends]]
+    modId = "kubejs"
+    type = "required"
+    versionRange = "[${kubejs_version},)"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.kubejs_mekanism_extends]]
+    modId = "mekanism"
+    type = "required"
+    versionRange = "${mekanism_version_range}"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.kubejs_mekanism_extends]]
+    modId = "kubejs_mekanism"
+    type = "required"
+    versionRange = "[${kubejs_mekanism_version},)"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.kubejs_mekanism_extends]]
+    modId = "evolvedmekanism"
+    type = "optional"
+    versionRange = "${evolved_mekanism_version_range}"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.kubejs_mekanism_extends]]
+    modId = "mekanism_extras"
+    type = "optional"
+    versionRange = "${mekanism_extras_version_range}"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.kubejs_mekanism_extends]]
+    modId = "mekmm"
+    type = "optional"
+    versionRange = "${mekmm_version_range}"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.kubejs_mekanism_extends]]
+    modId = "mekanismsun"
+    type = "optional"
+    versionRange = "[${mekanism_sun_version},)"
+    ordering = "AFTER"
+    side = "BOTH"
