@@ -1,0 +1,19 @@
+{
+  "keys": [
+    {
+      "name": "output",
+      "role": "output",
+      "type": "item_stack"
+    },
+    {
+      "name": "input",
+      "role": "input",
+      "type": "flat_sized_ingredient"
+    },
+    {
+      "name": "chance",
+      "type": "positive_float"
+    }
+  ],
+  "unique": ["output"]
+}

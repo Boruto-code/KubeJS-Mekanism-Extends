@@ -1,1 +1,1 @@
-com.hamburger0abcde.kubejs.mekanism_extends.MekanismExtendsKubeJSPlugin evolvedmekanism mekanism_extras mekmm mekanismsun
+com.hamburger0abcde.kubejs.mekanism_extends.MekanismExtendsKubeJSPlugin evolvedmekanism mekmm mekanismsun

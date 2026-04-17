@@ -1,0 +1,25 @@
+{
+  "keys": [
+    {
+      "name": "output",
+      "role": "output",
+      "type": "item_stack"
+    },
+    {
+      "name": "main_input",
+      "role": "input",
+      "type": "flat_sized_ingredient"
+    },
+    {
+      "name": "extra_input",
+      "role": "input",
+      "type": "flat_sized_ingredient"
+    },
+    {
+      "name": "second_extra_input",
+      "role": "input",
+      "type": "flat_sized_ingredient"
+    }
+  ],
+  "unique": ["output"]
+}
